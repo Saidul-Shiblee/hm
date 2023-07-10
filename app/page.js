@@ -4,9 +4,9 @@ import BB from "../public/icon 1.png";
 import DD from "../public/icon2.png";
 import AC from "../public/icon3.png";
 import BC from "../public/icon4.svg";
-import STEP1 from "../public/step1.svg";
-import STEP2 from "../public/step2.svg";
-import STEP3 from "../public/step3.svg";
+import STEP1 from "../public/Step1.svg";
+import STEP2 from "../public/Step2.svg";
+import STEP3 from "../public/Step3.svg";
 
 
 export default function Home() {
