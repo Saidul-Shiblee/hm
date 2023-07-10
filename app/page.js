@@ -101,6 +101,7 @@ export default function Home() {
             <div className="w-[135px] h-[135px] bg-white rounded-lg shadow-custom  flex flex-col">
               <div className="h-[65%] w-full flex justify-center items-center relative">
                 <Image
+                  alt='image'
                   src={BB}
                   width={50}
                   height={50}
@@ -791,6 +792,7 @@ export default function Home() {
             <div className="w-[135px] h-[135px] bg-white rounded-lg shadow-custom  flex flex-col">
               <div className="h-[65%] w-full flex justify-center items-center relative">
                 <Image
+                  alt='image'
                   src={DD}
                   width={50}
                   height={50}
@@ -807,6 +809,7 @@ export default function Home() {
             <div className="w-[135px] h-[135px] bg-white rounded-lg shadow-custom  flex flex-col">
               <div className="h-[65%] w-full flex justify-center items-center">
                 <Image
+                  alt='image'
                   src={AC}
                   width={50}
                   height={50}
@@ -823,6 +826,7 @@ export default function Home() {
             <div className="w-[135px] h-[135px] bg-white rounded-lg shadow-custom  flex flex-col">
               <div className="h-[65%] w-full flex justify-center items-center">
                 <Image
+                  alt='image'
                   src={BC}
                   width={50}
                   height={50}
@@ -1296,6 +1300,7 @@ export default function Home() {
                 id="hexagon"
               >
                 <Image
+                  alt='image'
                   src={STEP1}
                   width={116}
                   height={116}
@@ -1327,6 +1332,7 @@ export default function Home() {
                 id="hexagon"
               >
                 <Image
+                  alt='image'
                   src={STEP2}
                   width={116}
                   height={116}
@@ -1356,6 +1362,7 @@ export default function Home() {
                 id="hexagon"
               >
                 <Image
+                  alt='image'
                   src={STEP3}
                   width={116}
                   height={116}
@@ -1402,6 +1409,7 @@ export default function Home() {
             <div className="flex w-[79%]">
               <div className="relative flex justify-center items-center w-[26%]">
                 <Image
+                  alt='image'
                   src={PI}
                   width={177}
                   height={109}
@@ -1455,6 +1463,7 @@ export default function Home() {
             <div className="flex w-[79%]">
               <div className="relative flex justify-center items-center w-[26%]">
                 <Image
+                  alt='image'
                   src={PI}
                   width={177}
                   height={109}
