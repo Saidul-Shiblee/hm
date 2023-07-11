@@ -1406,7 +1406,7 @@ export default function Home() {
               <p className="font-bold text-2xl">
                 m<sup>2</sup>
               </p>
-              <p className="text-2xl">9</p>
+              <p className="text-2xl">25</p>
             </div>
             <div className="flex w-[79%]">
               <div className="relative flex justify-center items-center w-[26%]">
