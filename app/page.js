@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import PI from "../public/product_image.png"
+import PI1 from "../public/product_image1.jpg"
+import PI2 from "../public/product_image2.jpg"
 import BB from "../public/icon 1.png";
 import DD from "../public/icon2.png";
 import AC from "../public/icon3.png";
@@ -101,7 +103,7 @@ export default function Home() {
             <div className="w-[135px] h-[135px] bg-white rounded-lg shadow-custom  flex flex-col">
               <div className="h-[65%] w-full flex justify-center items-center relative">
                 <Image
-                  alt='image'
+                  alt="image"
                   src={BB}
                   width={50}
                   height={50}
@@ -792,7 +794,7 @@ export default function Home() {
             <div className="w-[135px] h-[135px] bg-white rounded-lg shadow-custom  flex flex-col">
               <div className="h-[65%] w-full flex justify-center items-center relative">
                 <Image
-                  alt='image'
+                  alt="image"
                   src={DD}
                   width={50}
                   height={50}
@@ -809,7 +811,7 @@ export default function Home() {
             <div className="w-[135px] h-[135px] bg-white rounded-lg shadow-custom  flex flex-col">
               <div className="h-[65%] w-full flex justify-center items-center">
                 <Image
-                  alt='image'
+                  alt="image"
                   src={AC}
                   width={50}
                   height={50}
@@ -826,7 +828,7 @@ export default function Home() {
             <div className="w-[135px] h-[135px] bg-white rounded-lg shadow-custom  flex flex-col">
               <div className="h-[65%] w-full flex justify-center items-center">
                 <Image
-                  alt='image'
+                  alt="image"
                   src={BC}
                   width={50}
                   height={50}
@@ -1300,7 +1302,7 @@ export default function Home() {
                 id="hexagon"
               >
                 <Image
-                  alt='image'
+                  alt="image"
                   src={STEP1}
                   width={116}
                   height={116}
@@ -1332,7 +1334,7 @@ export default function Home() {
                 id="hexagon"
               >
                 <Image
-                  alt='image'
+                  alt="image"
                   src={STEP2}
                   width={116}
                   height={116}
@@ -1362,7 +1364,7 @@ export default function Home() {
                 id="hexagon"
               >
                 <Image
-                  alt='image'
+                  alt="image"
                   src={STEP3}
                   width={116}
                   height={116}
@@ -1404,22 +1406,22 @@ export default function Home() {
               <p className="font-bold text-2xl">
                 m<sup>2</sup>
               </p>
-              <p className="text-2xl">25</p>
+              <p className="text-2xl">9</p>
             </div>
             <div className="flex w-[79%]">
               <div className="relative flex justify-center items-center w-[26%]">
                 <Image
-                  alt='image'
+                  alt="image"
                   src={PI}
                   width={177}
                   height={109}
                   className="absolute rounded-lg"
                 ></Image>
               </div>
-              <div className="flex justify-center py-[10px] items-start w-[46%]  ">
-                <div className="flex flex-col  gap-[30px] justify-center items-start">
-                  <p className=" font-bold text-2xl">Posted</p>
-                  <p className="text-2xl">5 hours ago</p>
+              <div className="flex pl-[16%] py-[10px] items-start w-[46%]   ">
+                <div className="flex flex-col  gap-[30px] justify-start items-start  text-start">
+                  <p className=" font-bold text-2xl text-start">Posted</p>
+                  <p className="text-2xl text-start">5 hours ago</p>
                 </div>
               </div>
               <div className="flex  flex-col justify-start items-start py-[10px]  px-[20px]  w-[28%] gap-[30px]">
@@ -1444,13 +1446,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="h-[217px] bg-white border-[1px] border-[rgba(0, 0, 0, 0.2)] w-full flex flex-col">
           <div className="flex w-full h-[29%] border-b-[1px] border-[rgba(0, 0, 0, 0.2)]">
             <div className="flex justify-center items-center w-[21%] text-[#ff6a18] text-xl ">
               Demolition & disposal
             </div>
             <div className="flex w-[79%] px-[36px] h-[64px] items-center text-xl">
-              Complete demolition of buildings and structures
+              Laying tiles 220 m2;Paint on floor in kitchen, bathroom, hallway
             </div>
           </div>
           <div className="flex w-full h-[71%]">
@@ -1463,17 +1466,72 @@ export default function Home() {
             <div className="flex w-[79%]">
               <div className="relative flex justify-center items-center w-[26%]">
                 <Image
-                  alt='image'
-                  src={PI}
+                  alt="image"
+                  src={PI1}
                   width={177}
                   height={109}
                   className="absolute rounded-lg"
                 ></Image>
               </div>
-              <div className="flex justify-center py-[10px] items-start w-[46%]  ">
-                <div className="flex flex-col  gap-[30px] justify-center items-start">
+              <div className="flex pl-[16%] py-[10px] items-start w-[46%]  relative ">
+                <div className="flex flex-col  gap-[30px] justify-center items-start text-start">
                   <p className=" font-bold text-2xl">Posted</p>
-                  <p className="text-2xl">5 hours ago</p>
+                  <p className="text-2xl">10 hours ago</p>
+                </div>
+              </div>
+              <div className="flex  flex-col justify-start items-start py-[10px]  px-[20px]  w-[28%] gap-[30px]">
+                <div className="flex justify-center items-center">
+                  <svg
+                    fill="#113d58"
+                    height="30px"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 50 50"
+                    enable-background="new 0 0 50 50"
+                  >
+                    <path d="M25 42.5l-.8-.9C23.7 41.1 12 27.3 12 19c0-7.2 5.8-13 13-13s13 5.8 13 13c0 8.3-11.7 22.1-12.2 22.7l-.8.8zM25 8c-6.1 0-11 4.9-11 11 0 6.4 8.4 17.2 11 20.4 2.6-3.2 11-14 11-20.4 0-6.1-4.9-11-11-11z" />
+                    <path d="M25 24c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5zm0-8c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3z" />
+                    <link xmlns="" />
+                  </svg>
+                  <p className="font-bold text-2xl">Berlin</p>
+                </div>
+                <div>
+                  <p className="text-2xl">5 kilometer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="h-[217px] bg-white border-[1px] border-[rgba(0, 0, 0, 0.2)] w-full flex flex-col">
+          <div className="flex w-full h-[29%] border-b-[1px] border-[rgba(0, 0, 0, 0.2)]">
+            <div className="flex justify-center items-center w-[21%] text-[#ff6a18] text-xl ">
+              Demolition & disposal
+            </div>
+            <div className="flex w-[79%] px-[36px] h-[64px] items-center text-xl">
+              Laying tiles Floor kitchen
+            </div>
+          </div>
+          <div className="flex w-full h-[71%]">
+            <div className="flex justify-start py-[10px] items-center w-[21%] flex-col gap-[30px]">
+              <p className="font-bold text-2xl">
+                m<sup>2</sup>
+              </p>
+              <p className="text-2xl">25</p>
+            </div>
+            <div className="flex w-[79%]">
+              <div className="relative flex justify-center items-center w-[26%]">
+                <Image
+                  alt="image"
+                  src={PI2}
+                  width={177}
+                  height={109}
+                  className="absolute rounded-lg"
+                ></Image>
+              </div>
+              <div className="flex pl-[16%] py-[10px] items-start w-[46%]  relative ">
+                <div className="flex flex-col  gap-[30px] justify-center items-start  text-start">
+                  <p className=" font-bold text-2xl">Posted</p>
+                  <p className="text-2xl">20 hours ago</p>
                 </div>
               </div>
               <div className="flex  flex-col justify-start items-start py-[10px]  px-[20px]  w-[28%] gap-[30px]">
